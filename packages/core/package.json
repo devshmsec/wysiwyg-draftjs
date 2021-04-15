@@ -1,0 +1,36 @@
+{
+    "name": "@wysiwyg-draftjs/core",
+    "version": "1.0.0",
+    "description": "A core of wysiwyg editor build on top of ReactJs and DraftJs using Material UI.",
+    "private": false,
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/devshmsec/wysiwyg-draftjs.git",
+        "directory": "packages/core"
+    },
+    "keywords": [
+        "wysiwyg",
+        "editor",
+        "draftsjs",
+        "reactjs",
+        "material-ui",
+        "typescript"
+    ],
+    "author": "Vinay Verma",
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/devshmsec/wysiwyg-draftjs/issues"
+    },
+    "homepage": "https://github.com/devshmsec/wysiwyg-draftjs#readme",
+    "sideEffects": false,
+    "publishConfig": {
+        "access": "public"
+    },
+    "engines": {
+        "node": ">=10.0.0"
+    }
+}

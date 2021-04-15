@@ -2,9 +2,10 @@
     "name": "wysiwyg-draftjs",
     "version": "1.0.0",
     "description": "wysiwyg-draftjs is a simple and customizable rich text editor library with components and utils.",
+    "private": false,
     "main": "index.js",
     "scripts": {
-        "watch": "tsc --watch"
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
         "type": "git",
@@ -24,9 +25,9 @@
         "url": "https://github.com/devshmsec/wysiwyg-draftjs/issues"
     },
     "homepage": "https://github.com/devshmsec/wysiwyg-draftjs#readme",
-    "dependencies": {
-        "typescript": "^4.2.4"
-    },
+    "workspaces": [
+        "packages/*"
+    ],
     "devDependencies": {
         "@babel/core": "^7.13.15",
         "@babel/preset-env": "^7.13.15",
