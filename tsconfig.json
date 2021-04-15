@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+	  	"module": "esnext",
+	  	"target": "es5",
+	  	"lib": ["es2020", "dom"],
+	  	"jsx": "preserve",
+	  	"moduleResolution": "node",
+	  	"forceConsistentCasingInFileNames": true,
+	  	"strict": true,
+	  	"noEmit": true,
+	  	"experimentalDecorators": true,
+	  	"baseUrl": "./",
+	  	"allowSyntheticDefaultImports": true,
+	  	"noErrorTruncation": false,
+	  	"allowJs": true,
+	  	"noImplicitAny": true,
+	  	"removeComments": true,
+	  	"preserveConstEnums": true,
+	  	"types": ["node", "react"],
+	  	"sourceMap": true
+	},
+	"exclude": ["node_modules", "**/*.test.{ts, tsx}"]
+}
