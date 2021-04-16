@@ -15,7 +15,7 @@
 	  	"noImplicitAny": true,
 	  	"removeComments": true,
 	  	"preserveConstEnums": true,
-	  	"types": ["node", "react"],
+	  	"types": ["node", "react", "react-dom"],
 	  	"sourceMap": true
 	},
 	"exclude": ["node_modules", "**/*.(test|stories).tsx?"]

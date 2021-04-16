@@ -32,5 +32,11 @@
     },
     "engines": {
         "node": ">=10.0.0"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.2.5",
+        "babel-loader": "^8.2.2",
+        "file-loader": "^6.2.0",
+        "postcss-loader": "^5.2.0"
     }
 }
