@@ -9,7 +9,6 @@
 	  	"strict": true,
 	  	"noEmit": true,
 	  	"experimentalDecorators": true,
-	  	"baseUrl": "./",
 	  	"allowSyntheticDefaultImports": true,
 	  	"noErrorTruncation": false,
 	  	"allowJs": true,
@@ -19,5 +18,5 @@
 	  	"types": ["node", "react"],
 	  	"sourceMap": true
 	},
-	"exclude": ["node_modules", "**/*.test.{ts, tsx}"]
+	"exclude": ["node_modules", "**/*.(test|stories).tsx?"]
 }

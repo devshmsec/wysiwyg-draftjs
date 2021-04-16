@@ -1,0 +1,28 @@
+{
+    "name": "wysiwyg-draftjs-docs",
+    "version": "1.0.0",
+    "description": "Documentation for wysiwyg-draftjs.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/devshmsec/wysiwyg-draftjs.git",
+        "directory": "docs"
+    },
+    "keywords": [
+        "docs",
+        "wysiwyg",
+        "react",
+        "draft",
+        "utils",
+        "core"
+    ],
+    "author": "Vinay Verma",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/devshmsec/wysiwyg-draftjs/issues"
+    },
+    "homepage": "https://github.com/devshmsec/wysiwyg-draftjs#readme"
+}
