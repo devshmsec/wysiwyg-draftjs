@@ -18,12 +18,16 @@ module.exports = {
     },
     plugins: ['babel', 'react', 'prettier', '@typescript-eslint'],
     rules: {
-        'prettier/prettier': 'warn',
+        'no-use-before-define': 'off',
+        '@typescript-eslint/no-use-before-define': ['error'],
+        'max-classes-per-file': ['error', 4],
+        'react/jsx-filename-extension': [1, { extensions: ['.tsx', '.ts'] }],
+        'prettier/prettier': ['warn'],
         'babel/new-cap': 1,
         'babel/camelcase': 1,
         'babel/no-invalid-this': 1,
-        'babel/object-curly-spacing': 1,
+        'babel/object-curly-spacing': 0,
         'babel/no-unused-expressions': 1,
         'babel/valid-typeof': 1,
     },
-}
+};

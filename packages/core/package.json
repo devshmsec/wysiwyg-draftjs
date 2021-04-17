@@ -3,9 +3,10 @@
     "version": "1.0.0",
     "description": "A core of wysiwyg editor build on top of ReactJs and DraftJs using Material UI.",
     "private": false,
-    "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "clean": "rimraf dist",
+        "build:webpack": "webpack",
+        "build": "npm run clean && npm run build:webpack"
     },
     "repository": {
         "type": "git",
@@ -37,6 +38,13 @@
         "autoprefixer": "^10.2.5",
         "babel-loader": "^8.2.2",
         "file-loader": "^6.2.0",
-        "postcss-loader": "^5.2.0"
+        "postcss-loader": "^5.2.0",
+        "rimraf": "^3.0.2"
+    },
+    "dependencies": {
+        "draft-js": "^0.11.7",
+        "immutable": "^3.7.6",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2"
     }
 }

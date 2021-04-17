@@ -4,7 +4,8 @@
         "baseUrl": "./",
         "paths": {
             "@assets/*": ["./src/assests/*"],
-            "@components/*": ["./src/components/*"]
+            "@components/*": ["./src/components/*"],
+            "@interfaces/*": ["./src/interfaces/*"]
         }
     },
     "include": ["src/**/*"],
